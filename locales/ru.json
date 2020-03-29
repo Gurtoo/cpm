@@ -1,0 +1,16 @@
+{
+  "links": {
+    "home": "Home",
+    "about": "About",
+    "russian": "Рус",
+    "english": "Английский"
+  },
+  "home": {
+    "title": "изготовление производственного",
+    "introduction": "термопереводного оборудования"
+  },
+  "about": {
+    "title": "About",
+    "introduction": "This page is made to give you more informations."
+  }
+}

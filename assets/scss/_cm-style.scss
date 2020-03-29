@@ -1,0 +1,120 @@
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+div.v--modal-overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 2000;
+}
+
+.phone_action_icon {
+  position: relative;
+
+  a.btn {
+    outline: 0;
+
+    &:hover, &:focus {
+
+      background-color: transparent;
+    }
+  }
+
+  .dropdown-numbers.dropdown-menu {
+    right: 100%;
+    top: 0;
+    left: auto;
+    display: block;
+
+    a {
+      .icon-phone {
+        padding-right: 5px;
+      }
+    }
+  }
+}
+
+.hot-popup {
+  .v--modal {
+    background-color: transparent;
+  }
+
+  .v--modal-box {
+    text-align: center;
+  }
+
+  .image-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+
+  .close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background-color: #fff;
+    height: 30px;
+    width: 30px;
+  }
+
+  img {
+    display: inline-block;
+  }
+}
+
+.product-price p {
+  display: block;
+}
+
+.equipment-item {
+  .equipment-img {
+    img {
+      max-height: 300px;
+    }
+  }
+}
+
+.cat-eq, .equipment-item {
+  .equipment-bt button {
+    font-size: rem(16);
+  }
+}
+
+.variation {
+  a.active {
+    img {
+      opacity: 0.5;
+    }
+  }
+}
+
+.product-price span {
+  text-decoration: none;
+}
+
+.line_through {
+  text-decoration: line-through !important;
+}
+
+.content_center_carousel {
+  .small_carousel_image {
+    min-height: 500px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    @include breakpoint(max-width 992px) {
+      min-height: 300px;
+    }
+    @include breakpoint(max-width 767px) {
+      min-height: 200px;
+    }
+  }
+
+}
+.swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: 15%;
+  z-index: 5;
+}
